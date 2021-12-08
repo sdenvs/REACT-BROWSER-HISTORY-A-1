@@ -50,15 +50,19 @@ class HistoryHome extends Component {
             />
           </div>
         </nav>
-        <ul className="historyList">
-          {showList.map(eachItem => (
-            <HistoryItem
-              deleteHist={this.deleteHistory}
-              key={eachItem.id}
-              HistoryItemD={eachItem}
-            />
-          ))}
-        </ul>
+        {showList.length > 0 ? (
+          <ul className="historyList">
+            {showList.map(eachItem => (
+              <HistoryItem
+                deleteHist={this.deleteHistory}
+                key={eachItem.id}
+                HistoryItemD={eachItem}
+              />
+            ))}
+          </ul>
+        ) : (
+          <p className="noElement">There is no history to show</p>
+        )}
       </div>
     )
   }

@@ -18,14 +18,13 @@ const HistoryItem = props => {
             <p className="url">{domainUrl}</p>
           </div>
         </div>
-        <div>
+        <button className="button" testid="delete" onClick={deleleH}>
           <img
-            onClick={deleleH}
             className="deleteIcon"
             alt="delete"
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
           />
-        </div>
+        </button>
       </div>
     </li>
   )

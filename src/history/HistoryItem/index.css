@@ -35,7 +35,10 @@
     color: #64748b;
   }
 }
-
+.button {
+  background-color: transparent;
+  border-style: none;
+}
 @media (min-width: 768px) {
   .historyItem {
     padding: 10px;
