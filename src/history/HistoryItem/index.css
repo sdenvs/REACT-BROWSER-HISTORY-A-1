@@ -1,0 +1,87 @@
+@media (max-width: 767px) {
+  .historyItem {
+    padding: 10px;
+  }
+  .style3 p {
+    margin: 0px;
+    padding: 0px;
+  }
+  .style1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .style2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .time {
+    color: #475569;
+    font-weight: bold;
+  }
+  .webLogo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .deleteIcon {
+    width: 25px;
+    height: 25px;
+  }
+  .url {
+    color: #64748b;
+  }
+}
+
+@media (min-width: 768px) {
+  .historyItem {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .style1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  .style2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .style3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .time1 {
+    color: #475569;
+    font-weight: bold;
+  }
+  .time {
+    color: #475569;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .webLogo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .deleteIcon {
+    width: 25px;
+    height: 25px;
+  }
+  .url {
+    color: #64748b;
+    margin: 0px;
+    margin-left: 15px;
+  }
+}

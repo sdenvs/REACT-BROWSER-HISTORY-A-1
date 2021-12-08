@@ -1,0 +1,96 @@
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #3367d6;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoImg {
+    width: 110px;
+    margin-right: 10px;
+  }
+  .searchDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .searchIcon {
+    background-color: #2850a7;
+    height: 32px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6697ff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .inputEl {
+    background-color: #2850a7;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6697ff;
+    height: 32px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    padding-left: 10px;
+    max-width: 250px;
+    width: 80%;
+  }
+  .historyList {
+    list-style-type: none;
+    box-shadow: 0px 4px 10px 0px #475569;
+    margin: 25px;
+    border-radius: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    background-color: #3367d6;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoImg {
+    width: 110px;
+    margin-right: 10px;
+  }
+  .searchDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .searchIcon {
+    background-color: #2850a7;
+    height: 32px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6697ff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .inputEl {
+    background-color: #2850a7;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6697ff;
+    height: 32px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    padding-left: 10px;
+    width: 550px;
+  }
+  .historyList {
+    list-style-type: none;
+    box-shadow: 0px 4px 10px 0px #475569;
+    margin: 25px;
+    border-radius: 20px;
+  }
+}
